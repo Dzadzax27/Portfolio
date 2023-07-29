@@ -66,16 +66,16 @@ body{
     right:1px;
     top:35px;
 }
-.btn3,.btn2,.btn1
+ .btn3,.btn2,.btn1,.btnHome
 {
     border-radius: 10%;
     border: 0ch;
-    background-color: rgb(219,238,243);
+    /* background-color: rgb(219,238,243); */
     width:80px;
-    height: 20px;
+    height: 25px;
     margin-left: 5px;
-    color: rgb(160, 160, 188);
-}
+    /* color: rgb(160, 160, 188); */
+} 
 .Links
 {
     box-sizing: border-box;
