@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+.Forma
+{
+    display: block;
+    width: 100%;
+    height: 100px;
+    
+    background-color: rgb(184, 184, 215);
+}
+#Name
+{
+    position:absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+    color: rgb(232, 244, 247);
+    font-size: 25px;
+}
+#Me
+{
+    position:fixed;
+    background-image: url("https://media.istockphoto.com/id/1068830604/photo/abstract-blurred-beautiful-interior-of-lobby-reception-condominium-background-with-bokeh.webp?b=1&s=170667a&w=0&k=20&c=YEOJoT986XSLjKqBzcRrNJ6mZN6aHExB6RLz9kyFAuk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+}
+#Info
+{
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    
+}
+#Title
+{
+    font-style: oblique;
+    margin-top: 2%;
+    margin-left: 3%;
+    position: fixed;
+    font-size: 25px;
+    color: rgb(184, 184, 215);
+
+}
+#image{
+    width: 50%;
+    height: 100%;
+}
+#OtherInfo
+{
+    font-style: oblique;
+    font-size: 16px;
+    position:fixed;
+    margin-top: 7%;
+    margin-left: 1%;
+    width:15%;
+    color: rgb(184, 184, 215);
+}
+.Buttons{
+    position: absolute;
+    padding: 5px;
+    right:1px;
+    top:35px;
+}
+.btn3,.btn2,.btn1
+{
+    border-radius: 10%;
+    border: 0ch;
+    background-color: rgb(219,238,243);
+    width:80px;
+    height: 20px;
+    margin-left: 5px;
+    color: rgb(160, 160, 188);
+}
+.Links
+{
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgb(184, 184, 215);
+    width: 45%;
+    height: 4%;
+}
+.Logoes
+{
+    margin: auto;
+    width:25%;
+    height: 80%;
+}
+#LinkedIn,#fb,#Ig,#Git
+{
+    margin-top: 1%;
+    margin-right:9%;
+    width: 16%;
+    height: 100%;
+}
+.Edu{
+    font-style: italic;
+    text-decoration: none;
+}

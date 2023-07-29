@@ -1,0 +1,85 @@
+.Main{
+    position: fixed;
+    background-image: url("https://media.istockphoto.com/id/1068830604/photo/abstract-blurred-beautiful-interior-of-lobby-reception-condominium-background-with-bokeh.webp?b=1&s=170667a&w=0&k=20&c=YEOJoT986XSLjKqBzcRrNJ6mZN6aHExB6RLz9kyFAuk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+}
+.Line
+{
+    position: relative;
+    width: 5px;
+    background-color: rgb(184, 184, 215);
+    height: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.Circle1
+{
+    
+    border-color: black;
+    border-radius: 50%;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    left: 49.5%;
+    position: absolute;
+    top: 60%;
+}
+.HighSchool
+{
+    left: 30%;
+    width:20%;
+    position: absolute;
+    top: 60%;
+    color: rgb(80, 80, 98);
+    font-style: italic;
+    
+}
+.TitleHS
+{
+    margin-left: 20%;
+}
+.UniHS
+{
+    margin-left: 10%;
+}
+.HighSchoolYear{
+    position: absolute;
+    left: 60%;
+    width:20%;
+    top: 60%;
+    color: rgb(80, 80, 98);
+    font-style: italic;
+    font-size: 20px;
+}
+.Circle2
+{
+    border-radius: 50%;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    left: 49.5%;
+    position: absolute;
+    top: 30%;
+}
+.Uni
+{
+    left: 30%;
+    width:20%;
+    position: absolute;
+    top: 30%;
+    color: rgb(80, 80, 98);
+    font-style: italic;
+}
+.UniYear
+{
+    position: absolute;
+    left: 60%;
+    width:20%;
+    top: 30%;
+    color: rgb(80, 80, 98);
+    font-style: italic;
+    font-size: 20px;
+}
