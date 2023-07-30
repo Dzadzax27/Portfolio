@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Education from './Pages/EducationPage.jsx';
+import Education from './Pages/EducationPage.jsx'
+import Skills from './Pages/Skills.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "Education",
     element: <Education/>,
+  },
+  {
+    path: "Skills",
+    element: <Skills/>,
   },
 ]);
 

@@ -10,7 +10,7 @@ function Form ()
     <div className="Buttons">
     <button className="btnHome"><Link className="Edu" to="/">Home</Link></button>
     <button className="btn1" ><Link className="Edu" to="/Education">Education</Link></button>
-    <button className="btn2">btn2</button>
+    <button className="btn2"><Link className="Edu" to="/Skills">Skills</Link></button>
     <button className="btn3">btn3</button></div>
     </form>)
 }
