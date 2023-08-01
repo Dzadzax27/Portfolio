@@ -88,11 +88,12 @@
     background-color: rgba(255, 255, 255, 0.414);
     width: 25%;
     margin-left: 22%;
-    margin-top: 10%;
+    margin-top: 12%;
     color: rgb(80, 80, 98);
     font-style: italic;
     padding: 5px;
     border-radius: 5%;
+    height: 100px;
 }
 .Languages{
     position: absolute;
@@ -100,8 +101,90 @@
     color: rgb(80, 80, 98);
     font-style: italic;
     margin-left: 52%;
-    margin-top: 10%;
+    margin-top: 12%;
     width: 25%;
     padding: 5px;
     border-radius: 5%;
+    height: 100px;
+}
+.Framework
+{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.414);
+    width: 25%;
+    margin-left: 22%;
+    margin-top: 23%;
+    color: rgb(80, 80, 98);
+    font-style: italic;
+    padding: 5px;
+    border-radius: 5%;
+    height: 100px;
+}
+.Enviroment
+{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.414);
+    width: 25%;
+    margin-left: 52%;
+    margin-top: 23%;
+    color: rgb(80, 80, 98);
+    font-style: italic;
+    padding: 5px;
+    border-radius: 5%;
+    height: 100px;
+}
+.HLine
+{
+    background-color: rgb(80, 80, 98);
+    margin-top: 21.5%;
+    width:60%;
+}
+.VLine{
+    position: absolute;
+    margin-left: 50%;
+    width: 1px;
+    height: 45%;
+    margin-top: 10%;
+    background-color: rgb(80, 80, 98);
+}
+#aboutProLanguages{
+    position: absolute;
+    background-color: rgba(184, 184, 215, 0.904);
+    width:40%;
+    height: 45%;
+    left:30%;
+    top:20%;
+    text-align: center;
+    border-radius: 5%;
+}
+.hovered{
+    position: absolute;
+    width: 25%;
+    margin-left: 22%;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.673);
+    font-style: italic;
+    padding: 5px;
+    border-radius: 5%;
+    height: 150px;
+    text-align: center;
+}
+#aboutLanguages,#aboutFramework,#aboutEnvironmen
+{
+    position: absolute;
+    background-color: rgba(184, 184, 215, 0.904);
+    width:40%;
+    height: 45%;
+    left:30%;
+    top:20%;
+    text-align: center;
+    border-radius: 5%;
+}
+.X1,.X2,.X3,.X4
+{
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    right: 2%;
+    top:2%;
 }
