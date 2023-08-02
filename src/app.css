@@ -34,17 +34,16 @@ body{
     background-color: white;
     width: 40%;
     height: 50%;
-    
+    position: relative;
 }
 #Title
 {
-    font-style: oblique;
-    margin-top: 2%;
-    margin-left: 3%;
-    position: fixed;
+    position: absolute;
+    font-style: italic;
+    padding-left: 15%;
     font-size: 25px;
     color: rgb(184, 184, 215);
-
+    top:3%;
 }
 #image{
     width: 50%;
@@ -58,7 +57,7 @@ body{
     margin-top: 7%;
     margin-left: 1%;
     width:15%;
-    color: rgb(184, 184, 215);
+    color: black;
 }
 .Buttons{
     position: absolute;
@@ -100,4 +99,13 @@ body{
 .Edu{
     font-style: italic;
     text-decoration: none;
+}
+.subTitle
+{
+    position: absolute;
+    top:13%;
+    font-size: small;
+    left: 50%;
+    text-align: center;
+    font-style: italic;
 }

@@ -18,13 +18,21 @@ function AboutMe()
     return <div id="Me">
         <div id="Info"><img id="image"src="https://scontent.ftzl2-1.fna.fbcdn.net/v/t1.15752-9/356538346_860375888950625_1434732799619883327_n.jpg?stp=dst-jpg_p2048x2048&_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=rm-Zt2j4eI8AX-BRr_8&_nc_ht=scontent.ftzl2-1.fna&oh=03_AdReaV9KBlKKshx03zMUh3g_acaFDlzdiNEaceSESoYJRA&oe=64D8DE94">
             </img>
-            <label id="Title">Osnovne informacije</label>
-            <label id="OtherInfo">Pozdrav! 
-            Zovem se Sadžida Džiho i dolazim
-             iz Mostara.
-        <br/> Studentica sam Fakulteta
-         informacijskih tehnologija na Univerzitetu Džemal Bijedić</label>
-            </div>
+            <label id="Title">Sadžida Džiho</label>
+            <label className="subTitle">A third-year student of the Faculty of Information Technologies.</label>
+            
+            <label id="OtherInfo">
+            <hr></hr>
+            Phone
+            <ul><li>+38762 247 850</li></ul>
+            <hr/>
+            Adress 
+            <ul><li>Mostar, Bosnia and Herzegovina</li></ul>
+            <hr/>
+            Mail
+            <ul><li>sadzidadziho@gmail.com</li></ul>
+            </label>
+          </div>
         <div className="Links">
             <div className="Logoes">
             <img onClick={goToLinkedIn} id="LinkedIn" 
