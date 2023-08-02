@@ -11,7 +11,7 @@ function Form ()
     <button className="btnHome"><Link className="Edu" to="/">Home</Link></button>
     <button className="btn1" ><Link className="Edu" to="/Education">Education</Link></button>
     <button className="btn2"><Link className="Edu" to="/Skills">Skills</Link></button>
-    <button className="btn3">btn3</button></div>
+    <button className="btn3"><Link className="Edu" to="/Hobbies">Hobbies</Link></button></div>
     </form>)
 }
 export default Form;

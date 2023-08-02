@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Education from './Pages/EducationPage.jsx'
 import Skills from './Pages/Skills.jsx'
+import Hobbies from './Pages/Hobbies.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "Skills",
     element: <Skills/>,
+  },
+  {
+    path: "Hobbies",
+    element: <Hobbies/>,
   },
 ]);
 
