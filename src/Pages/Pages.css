@@ -201,3 +201,40 @@
     right: 2%;
     top:2%;
 }
+.Hobbies
+{
+    position: absolute;
+   /* background-color: white;*/
+    left: 25%;
+    top:30%;
+    width: 50%;
+    height: 40%;
+}
+.Sport
+{
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    border-right: 1px solid black;
+    color:rgb(80, 80, 98)
+}
+.volunteerism
+{
+    position: absolute;
+    left: 33%;
+    width: 33%;
+    height: 100%;
+    border-right: 1px solid black;
+    color:rgb(80, 80, 98)
+}
+.Awards{
+    position: absolute;
+    left: 66%;
+    width: 34%;
+    height: 100%;
+    color:rgb(80, 80, 98)
+}
+.Title{
+    text-align: center;
+    color:rgb(80, 80, 98)
+}
