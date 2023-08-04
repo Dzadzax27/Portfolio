@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Form from "../Components/Form";
 import "./Pages.css"
 
-function Education()
+ const Education = () =>
 {
     return <div><Form></Form>
     <div className='Main'>
