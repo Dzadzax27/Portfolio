@@ -7,7 +7,7 @@ body{
     display: block;
     width: 100%;
     height: 100px;
-    
+    list-style: none;
     background-color: rgb(184, 184, 215);
 }
 #Name
@@ -15,7 +15,7 @@ body{
     position:absolute;
     margin-top: 35px;
     margin-left: 10px;
-    color: rgb(232, 244, 247);
+    color: rgb(241, 242, 243);
     font-size: 25px;
 }
 #Me
@@ -70,7 +70,7 @@ body{
 {
     border-radius: 10%;
     border: 0ch;
-    background-color: rgba(235, 242, 244, 0.822); 
+    background-color: rgba(255, 255, 255, 0.822); 
     width:80px;
     height: 25px;
     margin-left: 5px;
@@ -129,13 +129,13 @@ body{
     }
     #Title
     {
-        top: 53%;
+        top: 56%;
         left:15%;
     }
     .subTitle
     {
         position: absolute;
-        top: 57%;
+        top: 61%;
         left:10%;
         padding-left: 0%;
     }
@@ -157,6 +157,10 @@ body{
         top:10%;
         width: 100%;
     }
+    .Buttons.active
+    {
+        display: hide;
+    }
     .Forma
     {
         height: 179px;
@@ -165,7 +169,7 @@ body{
     {
         position: relative;
         margin-left: 40%;
-        top: 14%;
+        top: 15%;
     }
     .Toggle
     {
@@ -180,5 +184,27 @@ body{
     {
         height: 100%;
         width: 100%;
+    }
+    .Forma.active
+    {
+        height: 70px;
+    }
+    .Links{
+        position: absolute;
+        top:63%;
+        left:10%;
+        width: 80%;
+    }
+    .Logoes
+    {
+    margin: auto;
+    width:50%;
+    }
+    #LinkedIn,#fb,#Ig,#Git
+    {
+    margin-top: 1%;
+    margin-right:9%;
+    width: 15%;
+    height: 100%;
     }
 }
