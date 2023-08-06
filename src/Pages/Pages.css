@@ -242,3 +242,85 @@
     text-align: center;
     color:rgb(80, 80, 98)
 }
+@media screen and (max-width:720px) {
+    .HighSchool{
+        width:40%;
+        left:10%;
+    }
+    .Uni{
+        width:40%;
+        left:10%;
+    }
+    .TitleHS
+    {
+        margin-left: 10%;
+    }
+    .Line
+    {
+        height: 65%;
+        top:10%;
+    }
+    .Circle1
+    {
+        left:49%;
+    }
+    .Circle2
+    {
+        left: 49%;
+    }
+    .proLanguages
+    {
+        width:70%;
+        margin-left:15%;
+    }
+    .Languages
+    {
+        top:17%;
+        width:70%;
+        margin-left:15%;
+    }
+    .Framework
+    {
+        top:27%;
+        width:70%;
+        margin-left:15%;
+    }
+    .Enviroment
+    {
+        top:45%;
+        width:70%;
+        margin-left:15%;
+    }
+    #aboutProLanguages
+    {
+        left:15%;
+        width:70%;
+        top:10%;
+        height: 60%;
+    }
+    #aboutLanguages
+    {
+        width:70%;
+        top:20%;
+        left:15%;
+        height: 40%;
+    }
+    #aboutFramework
+    {
+        width:70%;
+        top:20%;
+        left:15%;
+        height: 40%;
+    }
+    #aboutEnvironment
+    {
+        width:70%;
+        top:15%;
+        left:15%;
+        height: 45%;
+    }
+    .hovered
+    {
+        margin-top:5%;
+    }
+}

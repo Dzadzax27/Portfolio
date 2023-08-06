@@ -150,9 +150,18 @@ body{
         position: relative;
         border: 1px solid black;
     }
-    .btnHome,.btn1,.btn2,.btn3:hover{
-        
-    }
+    .btnHome:hover{
+        background-color:  rgba(239, 232, 232, 0.722);
+     }
+    .btn1:hover{
+        background-color:  rgba(239, 232, 232, 0.722);
+     }
+    .btn2:hover{
+        background-color:  rgba(239, 232, 232, 0.722);
+     }
+    .btn3:hover{
+        background-color:  rgba(239, 232, 232, 0.722);
+     }
     .Buttons{
         top:10%;
         width: 100%;

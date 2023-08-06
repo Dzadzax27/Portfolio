@@ -10,16 +10,15 @@ function Form ()
           setMenuOpen(!menuOpen);
         };
     return ( <div><button className="Toggle" onClick={toggleMenu}>
-    <img className="Menu" src="https://assets.stickpng.com/images/588a64f5d06f6719692a2d13.png"></img>
-    </button>
-    <form className={`Forma ${menuOpen ? 'active' : ''}`}>
+    <img className="Menu" src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png"></img>
+    </button><form className={`Forma ${menuOpen ? 'active' : ''}`}>
     <label id='Name'> Sadžida Džiho</label>
     
     <div className={`Buttons ${menuOpen ? '' : 'nonactive'}`} >
-    <button className="btnHome"><Link className="Edu" to="/">Home</Link></button>
-    <button className="btn1" ><Link className="Edu" to="/Education">Education</Link></button>
-    <button className="btn2"><Link className="Edu" to="/Skills">Skills</Link></button>
-    <button className="btn3"><Link className="Edu" to="/Hobbies">Hobbies</Link></button></div>
+    <Link className="Edu" to="/"><button className="btnHome">Home</button></Link>
+    <Link className="Edu" to="/Education"><button className="btn1" >Education</button></Link>
+    <Link className="Edu" to="/Skills"><button className="btn2">Skills</button></Link>
+    <Link className="Edu" to="/Hobbies"><button className="btn3">Hobbies</button></Link></div>
     </form></div>)
 }
 export default Form;
