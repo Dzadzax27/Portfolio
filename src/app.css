@@ -4,7 +4,6 @@ body{
 }
 .Forma
 {
-    display: block;
     width: 100%;
     height: 100px;
     list-style: none;
@@ -114,40 +113,46 @@ body{
 {
     display: none;
 }
+
 @media screen and (max-width:720px) {
     #Me
     {
+        position: static;
+        height: 100%;
         overflow: auto;
     }
     #image{
+
         width:100%;
-        height: 50%;
+        height: 390px;
     }
     #Info{
         width: 80%;
-        height: 120%;
+        height: 90%;
+        box-sizing: border-box;
+        padding-bottom: 3%;
     }
     #Title
     {
-        top: 56%;
+        position: relative;
+        top: 66%;
         left:15%;
     }
     .subTitle
     {
-        position: absolute;
-        top: 61%;
+        position: relative;
+        top: 73%;
         left:10%;
         padding-left: 0%;
     }
     #OtherInfo
     {
         position: relative;
-        top:10%;
+        margin-top: 10%;
     }
     .btnHome,.btn1,.btn2,.btn3{
         left: 0%;
         width: 100%;
-        position: relative;
         border: 1px solid black;
     }
     .btnHome:hover{
@@ -165,10 +170,11 @@ body{
     .Buttons{
         top:10%;
         width: 100%;
+        
     }
     .Buttons.active
     {
-        display: hide;
+        display: none;
     }
     .Forma
     {
@@ -199,8 +205,8 @@ body{
         height: 70px;
     }
     .Links{
-        position: absolute;
-        top:63%;
+        position: static;
+        margin-top: 0%;
         left:10%;
         width: 80%;
     }
@@ -215,5 +221,9 @@ body{
     margin-right:9%;
     width: 15%;
     height: 100%;
+    }
+    .Navbar
+    {
+       
     }
 }

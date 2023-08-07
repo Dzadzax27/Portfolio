@@ -9,16 +9,16 @@ function Form ()
     const toggleMenu = () => {
           setMenuOpen(!menuOpen);
         };
-    return ( <div><button className="Toggle" onClick={toggleMenu}>
+    return ( <div className="Navbar"><button className="Toggle" onClick={toggleMenu}>
     <img className="Menu" src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png"></img>
     </button><form className={`Forma ${menuOpen ? 'active' : ''}`}>
     <label id='Name'> Sadžida Džiho</label>
-    
-    <div className={`Buttons ${menuOpen ? '' : 'nonactive'}`} >
+    </form>
+    <div className={`Buttons ${menuOpen ? 'active' : ''}`} >
     <Link className="Edu" to="/"><button className="btnHome">Home</button></Link>
     <Link className="Edu" to="/Education"><button className="btn1" >Education</button></Link>
     <Link className="Edu" to="/Skills"><button className="btn2">Skills</button></Link>
     <Link className="Edu" to="/Hobbies"><button className="btn3">Hobbies</button></Link></div>
-    </form></div>)
+    </div>)
 }
 export default Form;

@@ -6,7 +6,6 @@ function Hobbies()
 {
     return <div>
     <Form></Form>    
-    <div className='Main'></div>
     <div className='Hobbies'>
     <div className='Sport'><div className='Title'>Sport</div>
     <br></br>

@@ -8,13 +8,15 @@
 }
 .Line
 {
-    position: relative;
+    position: absolute;
     width: 5px;
     background-color: rgb(184, 184, 215);
     height: 70%;
     margin: auto;
     margin-top: 50px;
+    margin-left: 50%;
 }
+
 .Circle1
 {
     
@@ -204,17 +206,19 @@
 .Hobbies
 {
     position: absolute;
-   /* background-color: white;*/
-    left: 18%;
-    top:30%;
-    width: 60%;
-    height: 40%;
+    background-image: url("https://media.istockphoto.com/id/1068830604/photo/abstract-blurred-beautiful-interior-of-lobby-reception-condominium-background-with-bokeh.webp?b=1&s=170667a&w=0&k=20&c=YEOJoT986XSLjKqBzcRrNJ6mZN6aHExB6RLz9kyFAuk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .Sport
 {
     position: absolute;
-    width: 33%;
-    height: 100%;
+    width: 20%;
+    height: 40%;
+    top: 15%;
+    left:20%;
     border-right: 1px solid black;
     color:rgb(80, 80, 98);
     text-align: center;
@@ -223,9 +227,10 @@
 .volunteerism
 {
     position: absolute;
-    left: 36.5%;
-    width: 33%;
-    height: 100%;
+    width: 20%;
+    height: 40%;
+    top: 15%;
+    left:42%;
     border-right: 1px solid black;
     color:rgb(80, 80, 98);
     padding: 10px;
@@ -233,23 +238,39 @@
 }
 .Awards{
     position: absolute;
-    left: 70%;
-    width: 34%;
-    height: 100%;
+    width: 20%;
+    height: 40%;
+    top: 15%;
+    left:64%;
     color:rgb(80, 80, 98)
 }
 .Title{
     text-align: center;
     color:rgb(80, 80, 98)
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width:740px) {
+   
+    .Main
+    {
+        overflow: auto;
+    }
     .HighSchool{
         width:40%;
         left:10%;
+        top:53%;
+    }
+    .HighSchoolYear
+    {
+        top:53%;
     }
     .Uni{
         width:40%;
         left:10%;
+        top:25%;
+    }
+    .UniYear
+    {
+        top:25%;
     }
     .TitleHS
     {
@@ -258,15 +279,17 @@
     .Line
     {
         height: 65%;
-        top:10%;
+        top:7%;
     }
     .Circle1
     {
         left:49%;
+        top:53%;
     }
     .Circle2
     {
         left: 49%;
+        top:25%;
     }
     .proLanguages
     {
@@ -322,5 +345,36 @@
     .hovered
     {
         margin-top:5%;
+    }
+    .Sport
+    {
+        position: relative;
+        border: 0ch;
+        width: 80%;
+        left: 10%;
+        border-bottom: 1px solid black;
+    }
+    .volunteerism
+    {
+        position: relative;
+        border: 0ch;
+        width: 80%;
+        left: 10%;
+        border-bottom: 1px solid black;
+    }
+    .Awards
+    {
+        position: relative;
+        border: 0ch;
+        width: 80%;
+        left: 10%;
+    }
+    .Hobbies
+    {
+        position: static;
+        top: 0%;
+    }
+    ul{
+        margin-bottom: 0;
     }
 }
