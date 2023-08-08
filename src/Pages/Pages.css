@@ -255,8 +255,8 @@
         overflow: auto;
     }
     .HighSchool{
-        width:40%;
-        left:10%;
+        width:45%;
+        left:5%;
         top:53%;
     }
     .HighSchoolYear
@@ -264,8 +264,8 @@
         top:53%;
     }
     .Uni{
-        width:40%;
-        left:10%;
+        width:45%;
+        left:5%;
         top:25%;
     }
     .UniYear
@@ -316,31 +316,31 @@
     }
     #aboutProLanguages
     {
-        left:15%;
-        width:70%;
+        left:10%;
+        width:80%;
         top:10%;
-        height: 60%;
+        height: 70%;
     }
     #aboutLanguages
     {
-        width:70%;
+        width:80%;
         top:20%;
-        left:15%;
-        height: 40%;
+        left:10%;
+        height: 45%;
     }
     #aboutFramework
     {
-        width:70%;
+        width:80%;
         top:20%;
-        left:15%;
-        height: 40%;
+        left:10%;
+        height: 50%;
     }
     #aboutEnvironment
     {
-        width:70%;
+        width:80%;
         top:15%;
-        left:15%;
-        height: 45%;
+        left:10%;
+        height: 55%;
     }
     .hovered
     {
@@ -351,7 +351,7 @@
         position: relative;
         border: 0ch;
         width: 80%;
-        left: 10%;
+        left: 7%;
         border-bottom: 1px solid black;
     }
     .volunteerism
@@ -359,7 +359,7 @@
         position: relative;
         border: 0ch;
         width: 80%;
-        left: 10%;
+        left: 7%;
         border-bottom: 1px solid black;
     }
     .Awards
@@ -367,7 +367,7 @@
         position: relative;
         border: 0ch;
         width: 80%;
-        left: 10%;
+        left: 7%;
     }
     .Hobbies
     {

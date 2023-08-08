@@ -9,9 +9,9 @@ function Form ()
     const toggleMenu = () => {
           setMenuOpen(!menuOpen);
         };
-    return ( <div className="Navbar"><button className="Toggle" onClick={toggleMenu}>
-    <img className="Menu" src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png"></img>
-    </button><form className={`Forma ${menuOpen ? 'active' : ''}`}>
+    return ( <div className="Navbar"><button className={`Toggle ${menuOpen ? '' : 'active'}`}  onClick={toggleMenu}>
+    <img className="Menu" src="https://cdn-icons-png.flaticon.com/512/56/56763.png"></img>
+    </button><form className="Forma">
     <label id='Name'> Sadžida Džiho</label>
     </form>
     <div className={`Buttons ${menuOpen ? 'active' : ''}`} >
@@ -19,6 +19,7 @@ function Form ()
     <Link className="Edu" to="/Education"><button className="btn1" >Education</button></Link>
     <Link className="Edu" to="/Skills"><button className="btn2">Skills</button></Link>
     <Link className="Edu" to="/Hobbies"><button className="btn3">Hobbies</button></Link></div>
+    
     </div>)
 }
 export default Form;
