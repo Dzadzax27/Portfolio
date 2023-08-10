@@ -28,11 +28,12 @@ body{
 }
 #Info
 {
+   
     box-sizing: border-box;
     margin: auto;
     margin-top: 5%;
     background-color: white;
-    width: 40%;
+    width: 600px;
     height: 50%;
     position: relative;
 }
@@ -54,9 +55,9 @@ body{
     font-style: oblique;
     font-size: 16px;
     position:fixed;
-    margin-top: 7%;
+    margin-top: 100px;
     margin-left: 1%;
-    width:15%;
+    width:250px;
     color: black;
 }
 .Buttons{
@@ -64,6 +65,7 @@ body{
     padding: 5px;
     right:1px;
     top:35px;
+    
 }
  .btn3,.btn2,.btn1,.btnHome
 {
@@ -74,14 +76,32 @@ body{
     height: 25px;
     margin-left: 5px;
     color: rgb(160, 160, 188); 
+    cursor: pointer;
 } 
+.btn3:hover
+{
+    background-color: rgba(231, 229, 229, 0.518); 
+}
+.btn2:hover
+{
+    background-color: rgba(231, 229, 229, 0.518); 
+}
+.btn1:hover
+{
+    background-color: rgba(231, 229, 229, 0.518); 
+}
+.btnHome:hover
+{
+    background-color: rgba(231, 229, 229, 0.518); 
+}
 .Links
 {
     box-sizing: border-box;
     margin: auto;
     background-color: rgb(184, 184, 215);
-    width: 45%;
+    width: 600px;
     height: 4%;
+   
 }
 .Logoes
 {
@@ -95,6 +115,7 @@ body{
     margin-right:9%;
     width: 16%;
     height: 100%;
+    cursor: pointer;
 }
 .Edu{
     font-style: italic;
@@ -142,8 +163,8 @@ body{
     {
         position: relative;
         top: 73%;
-        left:10%;
         padding-left: 0%;
+        text-align: center;
     }
     #OtherInfo
     {
@@ -190,20 +211,20 @@ body{
     .Toggle
     {
         display: block;
-        right: 2px;
-        top:10px;
+        right: 4px;
+        top:7.5px;
         position: absolute;
-        height: 30px;
-        width: 7%;
+        height: 35px;
+        width: 10%;
     }
     .Toggle.active
     {
         display: block;
-        right: 2px;
-        top:20px;
+        right: 4px;
+        top:10px;
         position: absolute;
-        height: 30px;
-        width: 7%;
+        height: 35px;
+        width: 10%;
     }
     .Menu
     {

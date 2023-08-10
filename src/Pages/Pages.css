@@ -25,7 +25,7 @@
     background-color: white;
     height: 15px;
     width: 15px;
-    left: 49.5%;
+    left: 49.7%;
     position: absolute;
     top: 60%;
 }
@@ -50,7 +50,7 @@
 .HighSchoolYear{
     position: absolute;
     left: 60%;
-    width:20%;
+    width:40%;
     top: 60%;
     color: rgb(80, 80, 98);
     font-style: italic;
@@ -62,7 +62,7 @@
     background-color: white;
     height: 15px;
     width: 15px;
-    left: 49.5%;
+    left: 49.7%;
     position: absolute;
     top: 30%;
 }
@@ -79,7 +79,7 @@
 {
     position: absolute;
     left: 60%;
-    width:20%;
+    width:40%;
     top: 30%;
     color: rgb(80, 80, 98);
     font-style: italic;
@@ -97,6 +97,7 @@
     border-radius: 5%;
     height: 100px;
     font-size:  medium;
+    cursor: pointer;
 }
 .Languages{
     position: absolute;
@@ -110,6 +111,7 @@
     border-radius: 5%;
     height: 100px;
     font-size:  medium;
+    cursor: pointer;
 }
 .Framework
 {
@@ -124,6 +126,7 @@
     border-radius: 5%;
     height: 100px;
     font-size:  medium;
+    cursor: pointer;
 }
 .Enviroment
 {
@@ -138,6 +141,7 @@
     border-radius: 5%;
     height: 100px;
     font-size: medium;
+    cursor: pointer;
 }
 .HLine
 {
@@ -176,19 +180,40 @@
     text-align: center;
 
 }
-#aboutLanguages,#aboutFramework,#aboutEnvironment
+#aboutLanguages
 {
     position: absolute;
     background-color: rgba(184, 184, 215, 0.904);
     width:40%;
-    height: 45%;
+    height: 30%;
     left:30%;
-    top:20%;
+    top:25%;
     border-radius: 5%;
 }
+#aboutFramework
+{
+    position: absolute;
+    background-color: rgba(184, 184, 215, 0.904);
+    width:40%;
+    height: 30%;
+    left:30%;
+    top:25%;
+    border-radius: 5%;
+}
+#aboutEnvironment
+{
+    position: absolute;
+    background-color: rgba(184, 184, 215, 0.904);
+    width:40%;
+    height: 30%;
+    left:30%;
+    top:25%;
+    border-radius: 5%;
+}
+
 .Text1
 {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
 }
