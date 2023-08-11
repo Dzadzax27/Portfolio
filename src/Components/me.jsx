@@ -23,13 +23,13 @@ function AboutMe()
             
             <label id="OtherInfo">
             <hr></hr>
-            Phone
+            <label className="Header">Phone</label>
             <ul><li>+38762 247 850</li></ul>
             <hr/>
-            Adress 
+            <label className="Header">Adress</label> 
             <ul><li>Mostar, Bosnia and Herzegovina</li></ul>
             <hr/>
-            Mail
+            <label className="Header">Mail</label> 
             <ul><li>sadzidadziho@gmail.com</li></ul>
             </label>
           </div>
